@@ -1,0 +1,34 @@
+create table padrao_sistema(
+id_padrao serial primary key,
+nome_padrao Varchar(100),
+descricao Varchar(600),
+
+win_loss varchar(100),
+pts_favor int,
+pts_contra int,
+pts_final int,
+data_padrao date,
+descricao_trade Varchar (600),
+tempo_operacao double precision,
+gain_financeiro int,
+
+sentindo_se Varchar(100),
+candle_fechou boolean,
+loss_cedo boolean,
+qnt_trade int,
+descricao_emocional varchar(100),
+confianca_trade  varchar(100),
+motivo_fechar varchar(100),
+facil_ou_nao varchar (100),
+	
+mm8 boolean,
+mm20 boolean,
+tendencia boolean,
+trapzone boolean,
+volume boolean,
+cruza_media boolean
+
+)
+
+https://community.jaspersoft.com/project/jasperreports-library
+https://community.jaspersoft.com/project/jaspersoft-studio
